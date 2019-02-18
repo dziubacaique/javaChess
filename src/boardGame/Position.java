@@ -26,6 +26,13 @@ public class Position {
 	public void setColumn(Integer column) {
 		this.column = column;
 	}
+	
+	//METHODS
+	
+	public void setValues(Integer row, Integer column) {
+		this.row = row;
+		this.column = column;
+	}
 
 	//TOSTRING
 	@Override
